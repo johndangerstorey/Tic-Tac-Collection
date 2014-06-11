@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		715810701948FD4B006ECE83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7158106F1948FD4B006ECE83 /* Foundation.framework */; };
+		715810721948FD4B006ECE83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715810711948FD4B006ECE83 /* CoreGraphics.framework */; };
+		715810741948FD4B006ECE83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715810731948FD4B006ECE83 /* UIKit.framework */; };
+		7158107A1948FD4B006ECE83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715810781948FD4B006ECE83 /* InfoPlist.strings */; };
+		7158107C1948FD4B006ECE83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7158107B1948FD4B006ECE83 /* main.m */; };
+		715810801948FD4B006ECE83 /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7158107F1948FD4B006ECE83 /* TCAppDelegate.m */; };
+		715810821948FD4B006ECE83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715810811948FD4B006ECE83 /* Images.xcassets */; };
+		715810891948FD4B006ECE83 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715810881948FD4B006ECE83 /* XCTest.framework */; };
+		7158108A1948FD4B006ECE83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7158106F1948FD4B006ECE83 /* Foundation.framework */; };
+		7158108B1948FD4B006ECE83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715810731948FD4B006ECE83 /* UIKit.framework */; };
+		715810931948FD4B006ECE83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715810911948FD4B006ECE83 /* InfoPlist.strings */; };
+		715810951948FD4B006ECE83 /* Tic_Tac_CollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810941948FD4B006ECE83 /* Tic_Tac_CollectionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7158108C1948FD4B006ECE83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715810641948FD4B006ECE83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7158106B1948FD4B006ECE83;
+			remoteInfo = "Tic-Tac-Collection";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7158106C1948FD4B006ECE83 /* Tic-Tac-Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7158106F1948FD4B006ECE83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		715810711948FD4B006ECE83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		715810731948FD4B006ECE83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		715810771948FD4B006ECE83 /* Tic-Tac-Collection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tic-Tac-Collection-Info.plist"; sourceTree = "<group>"; };
+		715810791948FD4B006ECE83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7158107B1948FD4B006ECE83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7158107D1948FD4B006ECE83 /* Tic-Tac-Collection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tic-Tac-Collection-Prefix.pch"; sourceTree = "<group>"; };
+		7158107E1948FD4B006ECE83 /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		7158107F1948FD4B006ECE83 /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+		715810811948FD4B006ECE83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		715810871948FD4B006ECE83 /* Tic-Tac-CollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic-Tac-CollectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		715810881948FD4B006ECE83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		715810901948FD4B006ECE83 /* Tic-Tac-CollectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tic-Tac-CollectionTests-Info.plist"; sourceTree = "<group>"; };
+		715810921948FD4B006ECE83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		715810941948FD4B006ECE83 /* Tic_Tac_CollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tic_Tac_CollectionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715810691948FD4B006ECE83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715810721948FD4B006ECE83 /* CoreGraphics.framework in Frameworks */,
+				715810741948FD4B006ECE83 /* UIKit.framework in Frameworks */,
+				715810701948FD4B006ECE83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715810841948FD4B006ECE83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715810891948FD4B006ECE83 /* XCTest.framework in Frameworks */,
+				7158108B1948FD4B006ECE83 /* UIKit.framework in Frameworks */,
+				7158108A1948FD4B006ECE83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		715810631948FD4B006ECE83 = {
+			isa = PBXGroup;
+			children = (
+				715810751948FD4B006ECE83 /* Tic-Tac-Collection */,
+				7158108E1948FD4B006ECE83 /* Tic-Tac-CollectionTests */,
+				7158106E1948FD4B006ECE83 /* Frameworks */,
+				7158106D1948FD4B006ECE83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7158106D1948FD4B006ECE83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7158106C1948FD4B006ECE83 /* Tic-Tac-Collection.app */,
+				715810871948FD4B006ECE83 /* Tic-Tac-CollectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7158106E1948FD4B006ECE83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7158106F1948FD4B006ECE83 /* Foundation.framework */,
+				715810711948FD4B006ECE83 /* CoreGraphics.framework */,
+				715810731948FD4B006ECE83 /* UIKit.framework */,
+				715810881948FD4B006ECE83 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		715810751948FD4B006ECE83 /* Tic-Tac-Collection */ = {
+			isa = PBXGroup;
+			children = (
+				7158107E1948FD4B006ECE83 /* TCAppDelegate.h */,
+				7158107F1948FD4B006ECE83 /* TCAppDelegate.m */,
+				715810811948FD4B006ECE83 /* Images.xcassets */,
+				715810761948FD4B006ECE83 /* Supporting Files */,
+			);
+			path = "Tic-Tac-Collection";
+			sourceTree = "<group>";
+		};
+		715810761948FD4B006ECE83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				715810771948FD4B006ECE83 /* Tic-Tac-Collection-Info.plist */,
+				715810781948FD4B006ECE83 /* InfoPlist.strings */,
+				7158107B1948FD4B006ECE83 /* main.m */,
+				7158107D1948FD4B006ECE83 /* Tic-Tac-Collection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7158108E1948FD4B006ECE83 /* Tic-Tac-CollectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				715810941948FD4B006ECE83 /* Tic_Tac_CollectionTests.m */,
+				7158108F1948FD4B006ECE83 /* Supporting Files */,
+			);
+			path = "Tic-Tac-CollectionTests";
+			sourceTree = "<group>";
+		};
+		7158108F1948FD4B006ECE83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				715810901948FD4B006ECE83 /* Tic-Tac-CollectionTests-Info.plist */,
+				715810911948FD4B006ECE83 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7158106B1948FD4B006ECE83 /* Tic-Tac-Collection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715810981948FD4B006ECE83 /* Build configuration list for PBXNativeTarget "Tic-Tac-Collection" */;
+			buildPhases = (
+				715810681948FD4B006ECE83 /* Sources */,
+				715810691948FD4B006ECE83 /* Frameworks */,
+				7158106A1948FD4B006ECE83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tic-Tac-Collection";
+			productName = "Tic-Tac-Collection";
+			productReference = 7158106C1948FD4B006ECE83 /* Tic-Tac-Collection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		715810861948FD4B006ECE83 /* Tic-Tac-CollectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7158109B1948FD4B006ECE83 /* Build configuration list for PBXNativeTarget "Tic-Tac-CollectionTests" */;
+			buildPhases = (
+				715810831948FD4B006ECE83 /* Sources */,
+				715810841948FD4B006ECE83 /* Frameworks */,
+				715810851948FD4B006ECE83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7158108D1948FD4B006ECE83 /* PBXTargetDependency */,
+			);
+			name = "Tic-Tac-CollectionTests";
+			productName = "Tic-Tac-CollectionTests";
+			productReference = 715810871948FD4B006ECE83 /* Tic-Tac-CollectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715810641948FD4B006ECE83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DevMountain;
+				TargetAttributes = {
+					715810861948FD4B006ECE83 = {
+						TestTargetID = 7158106B1948FD4B006ECE83;
+					};
+				};
+			};
+			buildConfigurationList = 715810671948FD4B006ECE83 /* Build configuration list for PBXProject "Tic-Tac-Collection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 715810631948FD4B006ECE83;
+			productRefGroup = 7158106D1948FD4B006ECE83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7158106B1948FD4B006ECE83 /* Tic-Tac-Collection */,
+				715810861948FD4B006ECE83 /* Tic-Tac-CollectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7158106A1948FD4B006ECE83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7158107A1948FD4B006ECE83 /* InfoPlist.strings in Resources */,
+				715810821948FD4B006ECE83 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715810851948FD4B006ECE83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715810931948FD4B006ECE83 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		715810681948FD4B006ECE83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7158107C1948FD4B006ECE83 /* main.m in Sources */,
+				715810801948FD4B006ECE83 /* TCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715810831948FD4B006ECE83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715810951948FD4B006ECE83 /* Tic_Tac_CollectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7158108D1948FD4B006ECE83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7158106B1948FD4B006ECE83 /* Tic-Tac-Collection */;
+			targetProxy = 7158108C1948FD4B006ECE83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		715810781948FD4B006ECE83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715810791948FD4B006ECE83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		715810911948FD4B006ECE83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715810921948FD4B006ECE83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		715810961948FD4B006ECE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		715810971948FD4B006ECE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715810991948FD4B006ECE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tic-Tac-Collection/Tic-Tac-Collection-Prefix.pch";
+				INFOPLIST_FILE = "Tic-Tac-Collection/Tic-Tac-Collection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7158109A1948FD4B006ECE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tic-Tac-Collection/Tic-Tac-Collection-Prefix.pch";
+				INFOPLIST_FILE = "Tic-Tac-Collection/Tic-Tac-Collection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7158109C1948FD4B006ECE83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tic-Tac-Collection.app/Tic-Tac-Collection";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tic-Tac-Collection/Tic-Tac-Collection-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tic-Tac-CollectionTests/Tic-Tac-CollectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7158109D1948FD4B006ECE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tic-Tac-Collection.app/Tic-Tac-Collection";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tic-Tac-Collection/Tic-Tac-Collection-Prefix.pch";
+				INFOPLIST_FILE = "Tic-Tac-CollectionTests/Tic-Tac-CollectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		715810671948FD4B006ECE83 /* Build configuration list for PBXProject "Tic-Tac-Collection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715810961948FD4B006ECE83 /* Debug */,
+				715810971948FD4B006ECE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715810981948FD4B006ECE83 /* Build configuration list for PBXNativeTarget "Tic-Tac-Collection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715810991948FD4B006ECE83 /* Debug */,
+				7158109A1948FD4B006ECE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7158109B1948FD4B006ECE83 /* Build configuration list for PBXNativeTarget "Tic-Tac-CollectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7158109C1948FD4B006ECE83 /* Debug */,
+				7158109D1948FD4B006ECE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 715810641948FD4B006ECE83 /* Project object */;
+}
