@@ -19,6 +19,9 @@
 		7158108B1948FD4B006ECE83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715810731948FD4B006ECE83 /* UIKit.framework */; };
 		715810931948FD4B006ECE83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715810911948FD4B006ECE83 /* InfoPlist.strings */; };
 		715810951948FD4B006ECE83 /* Tic_Tac_CollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810941948FD4B006ECE83 /* Tic_Tac_CollectionTests.m */; };
+		715810A01948FD5D006ECE83 /* TCGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7158109F1948FD5D006ECE83 /* TCGameViewController.m */; };
+		715810A31948FD8D006ECE83 /* TCGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810A21948FD8D006ECE83 /* TCGameController.m */; };
+		715810A61948FDAE006ECE83 /* TCGameCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810A51948FDAE006ECE83 /* TCGameCollectionViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		715810901948FD4B006ECE83 /* Tic-Tac-CollectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tic-Tac-CollectionTests-Info.plist"; sourceTree = "<group>"; };
 		715810921948FD4B006ECE83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		715810941948FD4B006ECE83 /* Tic_Tac_CollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tic_Tac_CollectionTests.m; sourceTree = "<group>"; };
+		7158109E1948FD5D006ECE83 /* TCGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCGameViewController.h; sourceTree = "<group>"; };
+		7158109F1948FD5D006ECE83 /* TCGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCGameViewController.m; sourceTree = "<group>"; };
+		715810A11948FD8D006ECE83 /* TCGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCGameController.h; sourceTree = "<group>"; };
+		715810A21948FD8D006ECE83 /* TCGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCGameController.m; sourceTree = "<group>"; };
+		715810A41948FDAE006ECE83 /* TCGameCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCGameCollectionViewDataSource.h; sourceTree = "<group>"; };
+		715810A51948FDAE006ECE83 /* TCGameCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCGameCollectionViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +118,12 @@
 			children = (
 				7158107E1948FD4B006ECE83 /* TCAppDelegate.h */,
 				7158107F1948FD4B006ECE83 /* TCAppDelegate.m */,
+				7158109E1948FD5D006ECE83 /* TCGameViewController.h */,
+				7158109F1948FD5D006ECE83 /* TCGameViewController.m */,
+				715810A41948FDAE006ECE83 /* TCGameCollectionViewDataSource.h */,
+				715810A51948FDAE006ECE83 /* TCGameCollectionViewDataSource.m */,
+				715810A11948FD8D006ECE83 /* TCGameController.h */,
+				715810A21948FD8D006ECE83 /* TCGameController.m */,
 				715810811948FD4B006ECE83 /* Images.xcassets */,
 				715810761948FD4B006ECE83 /* Supporting Files */,
 			);
@@ -240,7 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715810A01948FD5D006ECE83 /* TCGameViewController.m in Sources */,
 				7158107C1948FD4B006ECE83 /* main.m in Sources */,
+				715810A61948FDAE006ECE83 /* TCGameCollectionViewDataSource.m in Sources */,
+				715810A31948FD8D006ECE83 /* TCGameController.m in Sources */,
 				715810801948FD4B006ECE83 /* TCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +376,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tic-Tac-Collection",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tic-Tac-Collection/Tic-Tac-Collection-Prefix.pch";
 				INFOPLIST_FILE = "Tic-Tac-Collection/Tic-Tac-Collection-Info.plist";
@@ -371,6 +393,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tic-Tac-Collection",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tic-Tac-Collection/Tic-Tac-Collection-Prefix.pch";
 				INFOPLIST_FILE = "Tic-Tac-Collection/Tic-Tac-Collection-Info.plist";
