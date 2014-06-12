@@ -21,6 +21,7 @@
 		715810951948FD4B006ECE83 /* Tic_Tac_CollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810941948FD4B006ECE83 /* Tic_Tac_CollectionTests.m */; };
 		F5DAC574194A4D4E00CBE038 /* TCFootballViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DAC573194A4D4E00CBE038 /* TCFootballViewController.m */; };
 		F5DAC577194A4E6700CBE038 /* TCFootballCollectionViewDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DAC576194A4E6700CBE038 /* TCFootballCollectionViewDatasource.m */; };
+		F5DAC57A194A615700CBE038 /* TCGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DAC579194A615700CBE038 /* TCGameController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		F5DAC573194A4D4E00CBE038 /* TCFootballViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFootballViewController.m; sourceTree = "<group>"; };
 		F5DAC575194A4E6700CBE038 /* TCFootballCollectionViewDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCFootballCollectionViewDatasource.h; sourceTree = "<group>"; };
 		F5DAC576194A4E6700CBE038 /* TCFootballCollectionViewDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFootballCollectionViewDatasource.m; sourceTree = "<group>"; };
+		F5DAC578194A615700CBE038 /* TCGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCGameController.h; sourceTree = "<group>"; };
+		F5DAC579194A615700CBE038 /* TCGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCGameController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				F5DAC576194A4E6700CBE038 /* TCFootballCollectionViewDatasource.m */,
 				F5DAC572194A4D4E00CBE038 /* TCFootballViewController.h */,
 				F5DAC573194A4D4E00CBE038 /* TCFootballViewController.m */,
+				F5DAC578194A615700CBE038 /* TCGameController.h */,
+				F5DAC579194A615700CBE038 /* TCGameController.m */,
 				715810811948FD4B006ECE83 /* Images.xcassets */,
 				715810761948FD4B006ECE83 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				7158107C1948FD4B006ECE83 /* main.m in Sources */,
 				F5DAC574194A4D4E00CBE038 /* TCFootballViewController.m in Sources */,
+				F5DAC57A194A615700CBE038 /* TCGameController.m in Sources */,
 				715810801948FD4B006ECE83 /* TCAppDelegate.m in Sources */,
 				F5DAC577194A4E6700CBE038 /* TCFootballCollectionViewDatasource.m in Sources */,
 			);
