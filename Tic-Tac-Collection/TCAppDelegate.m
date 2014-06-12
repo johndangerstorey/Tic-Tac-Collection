@@ -7,6 +7,7 @@
 //
 
 #import "TCAppDelegate.h"
+#import "TCFootballViewController.h"
 
 @implementation TCAppDelegate
 
@@ -14,6 +15,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    TCFootballViewController *viewController = [TCFootballViewController new];
+    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:viewController];
+    self.window.rootViewController = navigationController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

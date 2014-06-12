@@ -19,6 +19,8 @@
 		7158108B1948FD4B006ECE83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715810731948FD4B006ECE83 /* UIKit.framework */; };
 		715810931948FD4B006ECE83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 715810911948FD4B006ECE83 /* InfoPlist.strings */; };
 		715810951948FD4B006ECE83 /* Tic_Tac_CollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715810941948FD4B006ECE83 /* Tic_Tac_CollectionTests.m */; };
+		F5DAC574194A4D4E00CBE038 /* TCFootballViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DAC573194A4D4E00CBE038 /* TCFootballViewController.m */; };
+		F5DAC577194A4E6700CBE038 /* TCFootballCollectionViewDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DAC576194A4E6700CBE038 /* TCFootballCollectionViewDatasource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		715810901948FD4B006ECE83 /* Tic-Tac-CollectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tic-Tac-CollectionTests-Info.plist"; sourceTree = "<group>"; };
 		715810921948FD4B006ECE83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		715810941948FD4B006ECE83 /* Tic_Tac_CollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tic_Tac_CollectionTests.m; sourceTree = "<group>"; };
+		F5DAC572194A4D4E00CBE038 /* TCFootballViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCFootballViewController.h; sourceTree = "<group>"; };
+		F5DAC573194A4D4E00CBE038 /* TCFootballViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFootballViewController.m; sourceTree = "<group>"; };
+		F5DAC575194A4E6700CBE038 /* TCFootballCollectionViewDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCFootballCollectionViewDatasource.h; sourceTree = "<group>"; };
+		F5DAC576194A4E6700CBE038 /* TCFootballCollectionViewDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFootballCollectionViewDatasource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				7158107E1948FD4B006ECE83 /* TCAppDelegate.h */,
 				7158107F1948FD4B006ECE83 /* TCAppDelegate.m */,
+				F5DAC575194A4E6700CBE038 /* TCFootballCollectionViewDatasource.h */,
+				F5DAC576194A4E6700CBE038 /* TCFootballCollectionViewDatasource.m */,
+				F5DAC572194A4D4E00CBE038 /* TCFootballViewController.h */,
+				F5DAC573194A4D4E00CBE038 /* TCFootballViewController.m */,
 				715810811948FD4B006ECE83 /* Images.xcassets */,
 				715810761948FD4B006ECE83 /* Supporting Files */,
 			);
@@ -241,7 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7158107C1948FD4B006ECE83 /* main.m in Sources */,
+				F5DAC574194A4D4E00CBE038 /* TCFootballViewController.m in Sources */,
 				715810801948FD4B006ECE83 /* TCAppDelegate.m in Sources */,
+				F5DAC577194A4E6700CBE038 /* TCFootballCollectionViewDatasource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +450,7 @@
 				7158109A1948FD4B006ECE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7158109B1948FD4B006ECE83 /* Build configuration list for PBXNativeTarget "Tic-Tac-CollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +459,7 @@
 				7158109D1948FD4B006ECE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
